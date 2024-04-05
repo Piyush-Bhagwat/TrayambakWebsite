@@ -1,0 +1,148 @@
+@import url("./colors.style.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text);
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* ------------------------Text-Classes-------------------------------- */
+
+.text-b-s {
+    font-weight: 200;
+}
+
+.text-b-m {
+    font-weight: 500;
+}
+
+.text-b-h {
+    font-weight: 700;
+}
+
+.text-b-exh {
+    font-weight: 900;
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+.title {
+    font-size: 3em;
+}
+
+.title-l {
+    font-size: 4em;
+}
+
+.title-exl {
+    font-size: 6em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 0.6em;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ------------------------Section Classes--------------------------------- */
+body {
+    background-color: var(--background);
+}
+
+section {
+    display: flex;
+    height: 95vh;
+    padding: 2% 5%;
+    margin-bottom: 10px;
+}
+
+.center-v{
+    align-items: center;
+}
+
+.v-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sect-h-m {
+    height: 60vh;
+}
+
+.sect-h-s {
+    height: 30vh;
+}
+
+
+.sect-h-l {
+    height: 95vh;
+}
+
+
+/* ----------------------------------Image Tags------------------------------- */
+
+img {
+    max-width: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* ----------------------------Shadows---------------------------- */
+
+.shadow-1 {
+    box-shadow: 4px 4px 5px var(--shadow);
+}
+
+.shadow-2 {
+    box-shadow: 0 5px 5px var(--shadow);
+}
+
+.shadow-3 {
+    box-shadow: 5px 0 5px var(--shadow);
+}
+
+/* ---------------------------------- */
+nav{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.links a:hover{
+    transform: translateY(-5px);       
+}
